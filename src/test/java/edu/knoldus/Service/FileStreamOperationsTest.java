@@ -118,17 +118,5 @@ public class FileStreamOperationsTest {
         Mockito.when(mockCSV.createStream()).thenReturn(matchStream);
         assert(fileStreamOperations.mostMatchesWon().equals("Kolkata Knight Riders"));
     }
-
-    /*@Test
-    public void testFindAny() {
-        Mockito.when(mockCSV.createStream()).thenReturn(personStream);
-        assert(fileStreamOperations.findAnyInStream());
-    }
-
-    @Test
-    public void testFindFirst() {
-        Mockito.when(mockCSV.createStream()).thenReturn(personStream);
-        assert(fileStreamOperations.findFirstInStream());
-    }*/
-
+    
 }

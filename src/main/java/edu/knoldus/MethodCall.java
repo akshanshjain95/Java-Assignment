@@ -64,12 +64,6 @@ public class MethodCall {
 
         String mostMatchesWon = operations.mostMatchesWon();
         logger.info("Most matches won by team(EmptyStream if stream was empty) ------------->" + mostMatchesWon);
-/*
-        boolean isPersonPresent = operations.findAnyInStream();
-        logger.info("Is there any person in stream? -----------> " + isPersonPresent);
-
-        boolean isFirstPersonPresent = operations.findFirstInStream();
-        logger.info("Is the first record a person in stream? -----------> " + isFirstPersonPresent);*/
 
         return "All methods successfully executed";
     }

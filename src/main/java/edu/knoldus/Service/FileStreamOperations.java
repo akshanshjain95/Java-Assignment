@@ -111,18 +111,4 @@ public class FileStreamOperations {
         return first.map(Map.Entry::getKey).orElse("EmptyStream");
     }
 
-    /*public int totalMAtchesWonByRuns() {
-        Stream<Match> matchStream = csvFile.createStream();
-        matchStream.reduce(0, (count,match) -> match.winByRuns>0 ? count++ : count);
-    }
-    public Optional<String> anyMatchInVenue(String venue) {
-        Stream<Match> matchStream = csvFile.createStream();
-        matchStream.findAny();
-    }
-
-
-    public boolean findAnyInStream() {
-        Stream<Person> personStream = csvFile.createStream();
-        return personStream.findAny().isPresent();
-    }*/
 }
